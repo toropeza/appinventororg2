@@ -5920,7 +5920,7 @@ class AnimationChallengeHandler(webapp.RequestHandler):
     def get(self):
         template_values = {}
 
-        path = os.path.join(os.path.dirname(__file__), 'pages/IntroHTMLPages/UIScroll.html')
+        path = os.path.join(os.path.dirname(__file__), 'pages/IntroHTMLPages/AnimationChallenge.html')
         self.response.out.write(template.render(path, template_values))
 
 class WhatTheHeckIsCheckpointHandler(webapp.RequestHandler):
@@ -6964,8 +6964,6 @@ class ContactUsHandler(webapp.RequestHandler):
         path = os.path.join(os.path.dirname(__file__), 'pages/contact_us.html')
         self.response.out.write(template.render(path, template_values)) 
 
-<<<<<<< HEAD
-=======
 class JBridgeHandler(webapp.RequestHandler):
     def get(self):
         path = os.path.join(os.path.dirname(__file__), 'pages/javaBridge.html')
@@ -6973,7 +6971,6 @@ class JBridgeHandler(webapp.RequestHandler):
 
 
 
->>>>>>> a0a97ced319e885819e0235561f0d84241ed0a37
 class CourseInABoxIntroHanlder(webapp.RequestHandler):
     def get(self):
         userStatus = UserStatus().getStatus(self.request.uri)
@@ -7365,17 +7362,14 @@ application = webapp.WSGIApplication(
         ('/whatTheHeckIsCheckpoint', WhatTheHeckIsCheckpointHandler),
         ('/firebaseDB', FirebaseDBHandler),
         ('/hueNew', HueNewHandler),
-<<<<<<< HEAD
-        ('/UImoreAboutButtons', UIMoreAboutButtonsHandler),
+        ('/UIMoreAboutButtons', UIMoreAboutButtonsHandler),
         ('/UILLTC', UILLTCHandler),
-        ('/UImultipleScreens', UIMultipleScreensHandler),
-        ('/UIarrangements', UIArrangementsHandler),
-        ('/UIscroll', UIScrollHandler),
-        ('/javaBridge', javaBridgeHandler)
-=======
+        ('/UIMultipleScreens', UIMultipleScreensHandler),
+        ('/UIArrangements', UIArrangementsHandler),
+        ('/UIScroll', UIScrollHandler),
+        ('/javaBridge', javaBridgeHandler),
 
-        ('/jbridge', JBridgeHandler)
->>>>>>> a0a97ced319e885819e0235561f0d84241ed0a37
+        ('/jbridge', JBridgeHandler),
 
 
     ],

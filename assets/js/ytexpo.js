@@ -17,6 +17,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 var ytIdPlayList = [
+    "RFeUNoOaQUo",
 	"SEEznjguqBs",
 	"AmDl1t7DCKU",
 	"GQsiQx9q3d8",
