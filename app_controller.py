@@ -7370,7 +7370,7 @@ application = webapp.WSGIApplication(
         ('/javaBridge', javaBridgeHandler),
 
         ('/jbridge', JBridgeHandler),
-
+        ('/javabridge', JBridgeHandler)
 
     ],
     debug=True)
