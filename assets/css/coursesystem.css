@@ -2965,7 +2965,7 @@ a.menu-item {
     background-image: url("/assets/img/about/blogLanding.jpg");
 	padding-top: 67px;
     padding-bottom: 67px;
-    background-position-y: -60px;
+    background-position-y: -200px;
 }
 
 @media ( min-width : 0px) and (max-width: 872px) {
