@@ -5,18 +5,19 @@
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-6" style="margin-bottom: 24px;">
 				<h1>Java Bridge Programming</h1>
-				<p>The <i>App Inventor Java Bridge</i> is a Java library for building Android apps. It's much easier to learn  than 
-				the Android SDK and it uses the same simple terminology as App Inventor. If you are an App Inventor programmer and want to transition to Java, the App Inventor Java Bridge is for you.</p>			
+				<p>The <i>App Inventor Java Bridge Library</i> is a Java code library for building Android apps. It is easier to learn than the Android SDK and it uses the same terminology as App Inventor-- there is a Java class for every component. You can use this library in Android Studio to manually code Android apps. This page provides some lessons and tutorials for doing that. <a href="/javaBridge/downloads/AppInventor-JavaLibrary.jar" download>Download the library</a>. </p>
+				<p>The <i>App Inventor Java Bridge Code Generator</i> is an exploratory version of App Inventor which allows you to build an app with App Inventor, then click a button to automatically generate a Java equivalent of the app. <a href="#jBridgeSection">Read more</a>.</p>
 			</div>
 			<div class="col-sm-6 col-sm-pull-6">
 				<div class="youtube-embed-wrapper">
 					<div id="player"></div>
 				</div>
+
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 jbridge-vids-container">
-				<h2>More student stories</h2>
+				<h2>Student Testimonials</h2>
 				
 				<div data-ytexpo-id="SEEznjguqBs" class="ytexpo-vid jbridge-vid-story-wrapper selected">
 					<div class="jbridge-vid-story thomas">
@@ -111,42 +112,76 @@
 				<div class="jbridge-sample-app">
 					<div class="sample-app-title">Click Red</div>
 					<p>Click a button to turn it red.</p>
-						<a download="clickred.java" class="jbridge-sample-app-link-wrapper" href="/javaBridge/clickRed/Screen1.java">
-							<span>Download <i class="fa fa-arrow-circle-down"></i></span>
+						<a download="Screen1.java" class="jbridge-sample-app-link-wrapper" href="/javaBridge/clickRed/Screen1.java">
+							<span>Download the Java File<i class="fa fa-arrow-circle-down"></i></span>
+						</a>
+						<a download="ClickRed.zip" class="jbridge-sample-app-link-wrapper" href="/javaBridge/clickRed/ClickRed.zip" style="position: fixed">
+							<span>Download the Java Project<i class="fa fa-arrow-circle-down"></i></span>
 						</a>
 				</div>
 
 				<div class="jbridge-sample-app">
 					<div class="sample-app-title" href="/jBridgePaintPot">PaintPot</div>
 					<p>Draw on a picture you take with the camera!</p>
-					<a download="paintpot.java" href="/javaBridge/paintPot/Screen1.java" class="jbridge-sample-app-link-wrapper">
-						<span>Download <i class="fa fa-arrow-circle-down"></i></span>
+					<a download="Screen1.java" href="/javaBridge/paintPot/Screen1.java" class="jbridge-sample-app-link-wrapper">
+						<span>Download the Java File<i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<a download="PaintPot.zip" class="jbridge-sample-app-link-wrapper" href="/javaBridge/paintPot/PaintPot.zip" style="position: fixed">
+						<span>Download the Java Project<i class="fa fa-arrow-circle-down"></i></span>
 					</a>
 				</div>
 
 				<div class="jbridge-sample-app">
 					<div class="sample-app-title">MoleMash</div>
 					<p>Click the mole to earn points!</p>	
-					<a download="molemash.java"href="/javaBridge/moleMash/Screen1.java" class="jbridge-sample-app-link-wrapper">
-						<span>Download <i class="fa fa-arrow-circle-down"></i></span>
+					<a download="Screen1.java"href="/javaBridge/moleMash/Screen1.java" class="jbridge-sample-app-link-wrapper">
+						<span>Download the Java File<i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<a download="MoleMash.zip" class="jbridge-sample-app-link-wrapper" href="/javaBridge/moleMash/MoleMash.zip" style="position: fixed">
+						<span>Download the Java Project<i class="fa fa-arrow-circle-down"></i></span>
 					</a>
 				</div>
 
 				<div class="jbridge-sample-app">
 					<div class="sample-app-title">President's Quiz</div>
 					<p>A trivia app about US Presidents.</p>
-					<a download="presQuiz.java" href="/javaBridge/presidentsQuiz/Screen1.java" class="jbridge-sample-app-link-wrapper">
-						<span>Download <i class="fa fa-arrow-circle-down"></i></span>
+					<a download="Screen1.java" href="/javaBridge/presidentsQuiz/Screen1.java" class="jbridge-sample-app-link-wrapper">
+						<span>Download the Java File<i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<a download="PresidentsQuiz.zip" class="jbridge-sample-app-link-wrapper" href="/javaBridge/presidentsQuiz/PresidentsQuiz.zip" style="position: fixed">
+						<span>Download the Java Project<i class="fa fa-arrow-circle-down"></i></span>
 					</a>
 				</div>
 
 				<div class="jbridge-sample-app">
 					<div class="sample-app-title">Stock Market App</div> 
 					<p>Track your favorite stocks in real-time. </p>
-					<a download="stockMarket.java" href="/javaBridge/stockMarket/Screen1.java" class="jbridge-sample-app-link-wrapper">
-						<span>Download <i class="fa fa-arrow-circle-down"></i></span>
+					<a download="Screen1.java" href="/javaBridge/stockMarket/Screen1.java" class="jbridge-sample-app-link-wrapper">
+						<span>Download the Java File<i class="fa fa-arrow-circle-down"></i></span>
+					</a>
+					<a download="StockMarket.zip" class="jbridge-sample-app-link-wrapper" href="/javaBridge/stockMarket/StockMarket.zip" style="position: fixed">
+						<span>Download the Java Project<i class="fa fa-arrow-circle-down"></i></span>
 					</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section jbridge-tutorial-section background-blue">
+	<div class="gen-container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h1 id = "jBridgeSection">App Inventor Java Bridge Code Generator</h1>
+				<p style="margin-bottom: 59px;">
+					USF and the Democratize Computing Lab has developed a version of App Inventor that allows you generate a Java apps with a single click. The generated apps make use of the App Inventor Java Bridge Library. We call this tool the App Inventor Java Bridge Code Generator. For more information and a link to the alpha version of the tool, <a href="http://www.appinventor.org/jbridge">click here</a>.
+				</p>
+			</div>
+			<div class="col-sm-6 center-children">
+				<a class="jbridge-tocourse-btn" href="http://www.appinventor.org/jbridge">
+					Try it now
+					<i class="fa fa-arrow-right"></i>
+				</a>
 			</div>
 		</div>
 	</div>

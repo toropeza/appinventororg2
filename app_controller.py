@@ -7362,14 +7362,13 @@ application = webapp.WSGIApplication(
         ('/whatTheHeckIsCheckpoint', WhatTheHeckIsCheckpointHandler),
         ('/firebaseDB', FirebaseDBHandler),
         ('/hueNew', HueNewHandler),
+        ('/javaBridge', javaBridgeHandler),
+        ('/jbridge', JBridgeHandler),
         ('/UIMoreAboutButtons', UIMoreAboutButtonsHandler),
         ('/UILLTC', UILLTCHandler),
         ('/UIMultipleScreens', UIMultipleScreensHandler),
         ('/UIArrangements', UIArrangementsHandler),
         ('/UIScroll', UIScrollHandler),
-        ('/javaBridge', javaBridgeHandler),
-
-        ('/jbridge', JBridgeHandler),
 
 
     ],

@@ -1,0 +1,8 @@
+com.google.appinventor.components.annotations
+com.google.appinventor.components.common
+com.google.appinventor.components.runtime
+com.google.appinventor.components.runtime.collect
+com.google.appinventor.components.runtime.errors
+com.google.appinventor.components.runtime.multidex
+com.google.appinventor.components.runtime.util
+com.google.appinventor.components.scripts
