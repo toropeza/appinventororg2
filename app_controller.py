@@ -7369,8 +7369,6 @@ application = webapp.WSGIApplication(
         ('/UIMultipleScreens', UIMultipleScreensHandler),
         ('/UIArrangements', UIArrangementsHandler),
         ('/UIScroll', UIScrollHandler),
-
-
     ],
     debug=True)
 
